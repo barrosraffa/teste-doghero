@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(102,102,223,0.8701681356136204) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.grupo_cards {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border-radius: 7px;
+    box-shadow: 4px 10px 23px -4px #888;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    width: 180px;
+    height: 214px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 10px 23px -4px #888;
+    transition: 0.5s;
+    margin: 0 auto;
+}
+
+.card:hover {
+   border: solid 1px rgb(102,102,223);
+}
+
+.card a {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-decoration: none;
+    color: #665B6F;
+}
+
+/* page 2 */
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    background: white;
+    height: 600px;
+    margin-top: 40px;
+    box-shadow: 4px 10px 23px -4px #888;
+}
+
+.titulo_pagina{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.titulo_pagina h2 {
+    margin: 0;
+}
+
+.btn {
+    background: rgb(102,102,223);
+    width: 110px;
+    border-radius: 5px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.lista {
+    padding-top: 30px;
+}
+
+.lista a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+} 
+
+.background_listagem {
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
