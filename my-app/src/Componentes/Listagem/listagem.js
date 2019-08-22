@@ -8,6 +8,11 @@ class Listagem extends Component {
         return (
             <section className="container">
                 <div className="background_listagem">
+                    <nav>
+                        <a href="#">Pets</a>
+                        <a href="#">Clientes</a>
+                        <a href="#">Passeadores</a>
+                    </nav>
                     <div className="titulo_pagina">
                         <h2>Pets</h2>
                         <a className="btn" href="#">voltar</a>

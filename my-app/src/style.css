@@ -7,27 +7,33 @@ body {
 }
 
 .grupo_cards {
-    display: flex;
+    display: block;
     align-items: center;
     background: white;
     width: 700px;
     height: 400px;
     margin: 0 auto;
     margin-top: 10vh;
-    border-radius: 7px;
     box-shadow: 4px 10px 23px -4px #888;
+}
+
+.grupo_cards h3 {
+    text-align: center;
+    color: #888;
+    padding-top: 70px;
+    font-size: 20px;
 }
 
 .card {
     background-color: white;
     display: flex;
-    width: 180px;
-    height: 214px;
-    margin-left: 20px;
-    border-radius: 15px;
+    width: 480px;
+    height: 114px;
     box-shadow: 4px 10px 23px -4px #888;
     transition: 0.5s;
     margin: 0 auto;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .card:hover {
@@ -37,9 +43,10 @@ body {
 .card a {
     text-align: center;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
     text-decoration: none;
     color: #665B6F;
+    font-size: 25px;
 }
 
 /* page 2 */
@@ -56,7 +63,6 @@ body {
 .titulo_pagina{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
     padding-top: 60px;
 }
 
@@ -72,6 +78,12 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
+    line-height: 28px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color:  rgb(170, 170, 250);
 }
 
 .lista {
@@ -79,13 +91,59 @@ body {
 }
 
 .lista a {
-    margin-left: 60px;
+    margin-right: 40px;
     text-decoration: none;
     color: black;
 } 
 
-.background_listagem {
-    margin-left: 60px;
-    padding-top: 40px;
+.lista li {
+    padding: 20px 0;
+    background: #F5F5F5;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
 }
 
+.lista li:hover {
+    background: rgb(199, 182, 213);
+}
+
+.background_listagem {
+    margin-left: 60px;
+    padding-top: 12vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.background_listagem nav a {
+    padding-right: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.background_listagem nav a:hover {
+    background: rgb(199, 182, 213);
+    transition: 0.5s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 310px;
+    border: 1px solid;
+    border-radius: 62%;
+    box-shadow: 4px 10px 23px -4px #888;
+}
+
+.apresentacao {
+    display: flex;
+    margin-top: 12%;
+}
+
+.apresentação_lista {
+    padding-left: 50px;
+}

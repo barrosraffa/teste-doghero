@@ -1,6 +1,7 @@
 let ListagemPets = [ 
     {
         id: "Pipoca",
+        foto: "../../assets/dog1.jpg",
         nome: "Pipoca",
         sexo: "Macho",
         peso: "6kg",

@@ -5,15 +5,16 @@ class PrimeiraPagina extends Component {
     render() {
         return(
             <section>
-            <div class="grupo_cards">
-              <div class="card">
-                  <a href="listagem.html">Pet</a>
+            <div className="grupo_cards container">
+                <h3>Bem-vindo ao sistema....</h3>
+              <div className="card">
+                  <a href="#">Pet</a>
               </div>
-              <div class="card">
-                  <a href="cadastro.html">Cliente</a>
+              <div className="card">
+                  <a href="#">Cliente</a>
               </div>
-              <div class="card">
-                  <a href="cadastro.html">Passeador</a>
+              <div className="card">
+                  <a href="#">Passeador</a>
               </div>
           </div>
         </section>
