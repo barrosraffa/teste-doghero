@@ -4,6 +4,7 @@ import PaginaInicial from './Componentes/PaginaInicial';
 import Listagem from './Componentes/Listagem/listagem';
 import Apresentacao from './Componentes/Apresentação/Apresentacao';
 import FundoListagem from './Componentes/FundoListagem/FundoListagem';
+import CadastroPets from './Componentes/Cadastro/cadastro';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <FundoListagem />
       <Listagem/>
       <Apresentacao/>
+      <CadastroPets/>
     </Fragment>
   );
 }
