@@ -7,7 +7,7 @@ class PrimeiraPagina extends Component {
         return(
             <section>
             <div className="grupo_cards container">
-                <h3>Bem-vindo ao sistema....</h3>
+                <h3>Bem-vindo ao nosso sistema</h3>
               <div className="card">
               <Link to="/pets">Pets</Link>
               </div>

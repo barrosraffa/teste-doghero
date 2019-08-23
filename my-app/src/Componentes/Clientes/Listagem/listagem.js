@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../style.css"
-import ListagemPets from "../Listagemfake/ListagemPets"
+import ListagemPets from "../../Listagemfake/ListagemPets"
 import { Link } from "react-router-dom";
 
 class Listagem extends Component {
@@ -10,9 +10,9 @@ class Listagem extends Component {
             <section className="container">
                 <div className="background_listagem">
                     <nav>
-                        <a href="#">Pets</a>
-                        <a href="#">Clientes</a>
-                        <a href="#">Passeadores</a>
+                        <Link to="/">Pets</Link>
+                        <Link to="/">Clientes</Link>
+                        <Link to="/">Passeadores</Link>
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Pets</h2>

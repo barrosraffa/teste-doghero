@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PaginaInicial from './Componentes/PaginaInicial';
-import Listagem from './Componentes/Listagem/listagem';
-import Apresentacao from './Componentes/Apresentação/Apresentacao';
-import FundoListagem from './Componentes/FundoListagem/FundoListagem';
-import CadastroPets from './Componentes/Cadastro/cadastro';
+import Listagem from './Componentes/Pets/Listagem/listagem';
+import Apresentacao from './Componentes/Pets/Apresentação/Apresentacao';
+import FundoListagem from './Componentes/Pets/FundoListagem/FundoListagem';
+import CadastroPets from './Componentes/Pets/Cadastro/cadastro';
 
 function App() {
   return (

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import "../../style.css"
+import "../../../"
 // import ListagemPets from "../Listagemfake/ListagemPets"
-
 
 class Apresentacao extends Component {
 
@@ -18,7 +17,6 @@ class Apresentacao extends Component {
                         </div>
                     </div>
                 </section>
-
         )
     }
 }
