@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../style.css";
 import cadastro from "../Cadastro/cadastro.js";
+import { Link } from "react-router-dom";
 
 class CadastroPets extends Component {
     render() {
@@ -9,6 +10,7 @@ class CadastroPets extends Component {
                 <div className="cadastro">
                     <div className="form_background">
                         <h4>Cadastre-se</h4>
+                        <Link to="/pets">Voltar</Link>
                         <div> 
                             <label for="nome-da-pessoa"></label>
                             <input type="text" placeholder="Seu nome"/>

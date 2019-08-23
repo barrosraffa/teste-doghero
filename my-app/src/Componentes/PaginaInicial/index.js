@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../../style.css"
+import { Link } from "react-router-dom";
 
 class PrimeiraPagina extends Component {
     render() {
@@ -8,13 +9,13 @@ class PrimeiraPagina extends Component {
             <div className="grupo_cards container">
                 <h3>Bem-vindo ao sistema....</h3>
               <div className="card">
-                  <a href="#">Pet</a>
+              <Link to="/pets">Pets</Link>
               </div>
               <div className="card">
-                  <a href="#">Cliente</a>
+              <Link to="/clientes">Clientes</Link>
               </div>
               <div className="card">
-                  <a href="#">Passeador</a>
+              <Link to="/passeios">Passeadores</Link>
               </div>
           </div>
         </section>

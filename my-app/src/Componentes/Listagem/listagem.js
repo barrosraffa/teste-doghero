@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../style.css"
 import ListagemPets from "../Listagemfake/ListagemPets"
+import { Link } from "react-router-dom";
 
 class Listagem extends Component {
 
@@ -15,11 +16,11 @@ class Listagem extends Component {
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Pets</h2>
-                        <a className="btn" href="#">voltar</a>
+                        <Link to="/">Voltar</Link>
                     </div>
                     <div className="lista">
                         <a href="#">Lista de pets </a>
-                        <a href="#">Cadastre seu pet</a>
+                        <Link to="/CadastroPets">Cadastre seu pet</Link>
                         <ul>
                                 {
                                 ListagemPets.map((pet) => {
