@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "../../style.css";
-import cadastro from "./cadastro.js.js";
+import "../../../style.css";
 import { Link } from "react-router-dom";
 
 class CadastroPets extends Component {
@@ -12,24 +11,24 @@ class CadastroPets extends Component {
                         <h4>Cadastre-se</h4>
                         <Link to="/pets">Voltar</Link>
                         <div> 
-                            <label for="nome-da-pessoa"></label>
-                            <input type="text" placeholder="Seu nome"/>
+                            <label for="nome-do-pet"></label>
+                            <input type="text" placeholder="Nome do pet"/>
                         </div>   
                     
                         <div>
-                            <label for="senha-da-pessoa"></label>
-                            <input type="password" placeholder="Sua senha" name="senha-da-pessoa"/>
+                            <label for="raça-do-pet"></label>
+                            <input type="text" placeholder="Raça do pet" name="senha-do-pet"/>
                         </div> 
                 
                         <div>
-                            <label for="email-da-pessoa"></label>
-                            <input type="email" placeholder="Seu email" name="senha-da-pessoa"/>
+                            <label for="sexo-do-pet"></label>
+                            <input type="text" placeholder="Sexo do pet" name="senha-da-pessoa"/>
                         </div>
                         <div>
-                            <label for="email-da-pessoa"></label>
-                            <input type="text" placeholder="Seu telefone" name="senha-da-pessoa"/>
+                            <label for="Peso-do-pet"></label>
+                            <input type="text" placeholder="Peso do pet" name="senha-da-pessoa"/>
                         </div>
-                        <input className="btn" type="submit" value="Enviar"/>
+                        <input className="btn" type="submit" value="Cadastrar"/>
                     </div>
                 </div>
             </section>

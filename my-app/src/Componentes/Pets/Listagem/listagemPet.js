@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../style.css"
+import "../../../style.css"
 import ListagemPets from "../../Listagemfake/ListagemPets"
 import { Link } from "react-router-dom";
 
@@ -16,7 +16,7 @@ class Listagem extends Component {
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Pets</h2>
-                        <Link to="/">Voltar</Link>
+                        <Link className="btn" to="/">Voltar</Link>
                     </div>
                     <div className="lista">
                         <a href="#">Lista de pets </a>

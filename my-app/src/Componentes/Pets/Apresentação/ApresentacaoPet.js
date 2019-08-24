@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "../../../"
+import "../../../style.css"
 // import ListagemPets from "../Listagemfake/ListagemPets"
 
 
-class Apresentacao extends Component {
+class ApresentacaoPet extends Component {
 
     render() {
         return (
@@ -22,4 +22,4 @@ class Apresentacao extends Component {
     }
 }
 
-export default Apresentacao
+export default ApresentacaoPet

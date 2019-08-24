@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../../style.css";
-import cadastro from "../Cadastro/cadastro.js";
+import cadastro from "./cadastro.js.js";
 import { Link } from "react-router-dom";
 
 class CadastroPets extends Component {
