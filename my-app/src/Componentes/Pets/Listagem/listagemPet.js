@@ -10,9 +10,9 @@ class Listagem extends Component {
             <section className="container">
                 <div className="background_listagem">
                     <nav>
-                        <Link to="/">Pets</Link>
-                        <Link to="/">Clientes</Link>
-                        <Link to="/">Passeadores</Link>
+                        <Link to="/pets">Pets</Link>
+                        <Link to="/Clientes">Clientes</Link>
+                        <Link to="/passeadores">Passeadores</Link>
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Pets</h2>

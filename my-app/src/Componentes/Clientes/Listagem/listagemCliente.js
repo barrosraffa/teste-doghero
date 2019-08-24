@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../../style.css"
-import ListagemPets from "../../Listagemfake/ListagemPets"
+import ListagemClientes from "../../Listagemfake/ListagemClientes"
 import { Link } from "react-router-dom";
 
 class Listagem extends Component {
@@ -23,10 +23,10 @@ class Listagem extends Component {
                         <Link to="/CadastroCliente">Cadastro de Cliente</Link>
                         <ul>
                                 {
-                                ListagemPets.map((pet) => {
+                                ListagemClientes.map((clientes) => {
                                     return( 
                                     <li>
-                                    {pet.nome}
+                                    {clientes.nome}
                                     </li>
                                     )
                                 })
