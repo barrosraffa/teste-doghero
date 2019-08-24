@@ -10,17 +10,17 @@ class Listagem extends Component {
             <section className="container">
                 <div className="background_listagem">
                     <nav>
-                        <Link to="/">Pets</Link>
-                        <Link to="/">Clientes</Link>
-                        <Link to="/">Passeadores</Link>
+                        <Link to="/pets">Pets</Link>
+                        <Link to="/Clientes">Clientes</Link>
+                        <Link to="/passeios">Passeadores</Link>
                     </nav>
                     <div className="titulo_pagina">
-                        <h2>Pets</h2>
+                        <h2>Passeadores</h2>
                         <Link to="/">Voltar</Link>
                     </div>
                     <div className="lista">
                         <a href="#">Lista de pets </a>
-                        <Link to="/CadastroPets">Cadastre seu pet</Link>
+                        <Link to="/CadastroPasseadores">Cadastro de passeador</Link>
                         <ul>
                                 {
                                 ListagemPets.map((pet) => {

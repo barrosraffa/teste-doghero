@@ -8,7 +8,7 @@ class CadastroPets extends Component {
             <section className="container">
                 <div className="cadastro">
                     <div className="form_background">
-                        <h4>Cadastre-se</h4>
+                        <h4>Cadastro de Pets</h4>
                         <Link to="/pets">Voltar</Link>
                         <div> 
                             <label for="nome-do-pet"></label>

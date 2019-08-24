@@ -12,10 +12,10 @@ class PrimeiraPagina extends Component {
               <Link to="/pets">Pets</Link>
               </div>
               <div className="card">
-              <Link to="/clientes">Clientes</Link>
+              <Link to="/Clientes">Clientes</Link>
               </div>
               <div className="card">
-              <Link to="/passeios">Passeadores</Link>
+              <Link to="/passeadores">Passeadores</Link>
               </div>
           </div>
         </section>

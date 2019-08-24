@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import "../../../style.css";
-import cadastro from "./cadastro.js.js";
 import { Link } from "react-router-dom";
 
-class CadastroPets extends Component {
+class CadastroPasseios extends Component {
     render() {
         return  (
             <section className="container">
                 <div className="cadastro">
                     <div className="form_background">
-                        <h4>Cadastre-se</h4>
-                        <Link to="/pets">Voltar</Link>
+                        <h4>Cadastro de passeador</h4>
+                        <Link to="/passeadores">Voltar</Link>
                         <div> 
                             <label for="nome-da-pessoa"></label>
                             <input type="text" placeholder="Seu nome"/>
@@ -29,7 +28,7 @@ class CadastroPets extends Component {
                             <label for="email-da-pessoa"></label>
                             <input type="text" placeholder="Seu telefone" name="senha-da-pessoa"/>
                         </div>
-                        <input className="btn" type="submit" value="Enviar"/>
+                        <input className="btn" type="submit" value="Cadastrar"/>
                     </div>
                 </div>
             </section>
@@ -38,4 +37,4 @@ class CadastroPets extends Component {
    
 }
 
-export default CadastroPets
+export default CadastroPasseios

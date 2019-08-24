@@ -20,7 +20,7 @@ class Listagem extends Component {
                     </div>
                     <div className="lista">
                         <a href="#">Lista de pets </a>
-                        <Link to="/CadastroPets">Cadastre seu pet</Link>
+                        <Link to="/CadastroPets">Cadastro de Pet</Link>
                         <ul>
                                 {
                                 ListagemPets.map((pet) => {
