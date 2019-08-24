@@ -13,7 +13,7 @@ class ApresentacaoPet extends Component {
                             <img src="./my-app/assets/dog1.jpg" alt=""/>
                             <div className="apresentação_lista">
                                     <li></li>
-                                    <button>Voltar</button>
+                                    <a className="btn_voltar">Voltar</a>
                             </div>
                         </div>
                     </div>

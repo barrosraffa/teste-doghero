@@ -7,9 +7,11 @@ class CadastroPets extends Component {
         return  (
             <section className="container">
                 <div className="cadastro">
+                    <div className="btn_voltar">
+                    <Link to="/pets">Voltar</Link>
+                    </div>
                     <div className="form_background">
                         <h4>Cadastro de Pets</h4>
-                        <Link to="/pets">Voltar</Link>
                         <div> 
                             <label for="nome-do-pet"></label>
                             <input type="text" placeholder="Nome do pet"/>

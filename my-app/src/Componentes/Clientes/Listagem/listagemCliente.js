@@ -12,11 +12,11 @@ class Listagem extends Component {
                     <nav>
                         <Link to="/Pets">Pets</Link>
                         <Link to="/Clientes">Clientes</Link>
-                        <Link to="/">Passeadores</Link>
+                        <Link to="/passeadores">Passeadores</Link>
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Clientes</h2>
-                        <Link to="/">Voltar</Link>
+                        <Link className="btn" to="/">Voltar</Link>
                     </div>
                     <div className="lista">
                         <a href="#">Lista de Clientes </a>

@@ -7,9 +7,11 @@ class CadastroPasseios extends Component {
         return  (
             <section className="container">
                 <div className="cadastro">
+                    <div className="btn_voltar">
+                        <Link to="/passeadores">Voltar</Link>
+                    </div>
                     <div className="form_background">
                         <h4>Cadastro de passeador</h4>
-                        <Link to="/passeadores">Voltar</Link>
                         <div> 
                             <label for="nome-da-pessoa"></label>
                             <input type="text" placeholder="Seu nome"/>

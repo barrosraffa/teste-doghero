@@ -16,7 +16,7 @@ class Listagem extends Component {
                     </nav>
                     <div className="titulo_pagina">
                         <h2>Passeadores</h2>
-                        <Link to="/">Voltar</Link>
+                        <Link className="btn" to="/">Voltar</Link>
                     </div>
                     <div className="lista">
                         <a href="#">Lista de pets </a>
