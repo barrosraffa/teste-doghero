@@ -23,8 +23,7 @@ $  npm run-script build
 
 # Processo de desenvolvimento
 
-Primeiro fiz um html com algumas páginas, e estilizei no css.
-Depois passei esse HTML para o react componentizando cada página.
+Primeiro fiz um html com algumas páginas, e estilizei no css, ddepois passei esse HTML para o react componentizando cada tela.
 
 Após a componentização, pesquisei como poderia fazer a parte de interação das telas e achei o react-router, então comecei a colar o <link> em cada topo de página para que todos os <a>s virassem links para navegação.
 
