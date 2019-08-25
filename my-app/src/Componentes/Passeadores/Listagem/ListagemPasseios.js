@@ -32,7 +32,6 @@ class Listagem extends Component {
                             })
                             }
                         </ul>
-                    
                     </div>
                 </div>
             </section>
