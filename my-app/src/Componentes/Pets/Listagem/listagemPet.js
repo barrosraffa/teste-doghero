@@ -3,6 +3,7 @@ import "../../../style.css"
 import ListagemPets from "../../Listagemfake/ListagemPets"
 import { Link } from "react-router-dom";
 
+
 class Listagem extends Component {
 
     render() {
@@ -26,13 +27,12 @@ class Listagem extends Component {
                                 ListagemPets.map((pet) => {
                                     return( 
                                     <li>
-                                    {pet.nome}
+                                    <Link to="/ApresentacaoPet">{pet.nome}</Link>
                                     </li>
                                     )
                                 })
                               }
                         </ul>
-                    
                     </div>
                 </div>
             </section>
