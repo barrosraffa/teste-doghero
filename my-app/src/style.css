@@ -31,6 +31,21 @@ body {
     font-size: 20px;
 }
 
+.grupo_cards a {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-decoration: none;
+    color: #665B6F;
+    font-size: 25px;
+}
+
+.card:hover {
+    border: solid 1px rgb(102,102,223);
+    background-color: rgb(170, 170, 250);
+    color: #fff;
+ }
+
 .card {
     background-color: white;
     display: flex;
@@ -41,24 +56,8 @@ body {
     margin: 0 auto;
     cursor: pointer;
     margin-top: 10px;
-}
-
-.card:hover {
-   border: solid 1px rgb(102,102,223);
-   background-color: rgb(170, 170, 250);
-}
-
-.card a {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
-    text-decoration: none;
-    color: #665B6F;
-    font-size: 25px;
-}
-
-.card a:hover {
-    color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo_pagina{
@@ -118,11 +117,15 @@ body {
 }
 
 .lista li {
-    padding: 20px 0;
     background: #F5F5F5;
     margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
+}
+
+.lista li a {
+    display: block;
+    padding: 20px;
 }
 
 .lista li:hover {

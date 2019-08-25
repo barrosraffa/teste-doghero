@@ -11,7 +11,7 @@ class CadastroPets extends Component {
                     <Link to="/pets">Voltar</Link>
                     </div>
                     <div className="form_background">
-                        <h4>Cadastro de Pets</h4>
+                        <h4>Cadastro de Pet</h4>
                         <div> 
                             <label for="nome-do-pet"></label>
                             <input type="text" placeholder="Nome do pet"/>

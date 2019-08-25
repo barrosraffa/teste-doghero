@@ -19,7 +19,7 @@ class ApresentacaoCliente extends Component {
                     <div className="background_listagem">
                         <div className="apresentacao">
                         <Link className="btn" to="/passeadores">Voltar</Link>
-                        <h4>Passeadores</h4>
+                        <h4>Passeadora</h4>
                             <div className="apresentação_lista">
                             <div>
                                 <img src={FotoCarla} />

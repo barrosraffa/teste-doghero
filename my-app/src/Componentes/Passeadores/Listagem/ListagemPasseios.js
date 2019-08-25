@@ -19,7 +19,7 @@ class Listagem extends Component {
                         <Link className="btn" to="/">Voltar</Link>
                     </div>
                     <div className="lista">
-                        <a href="#">Lista de pets </a>
+                        <a href="#">Lista de passeadores </a>
                         <Link to="/CadastroPasseadores">Cadastro de passeador</Link>
                         <ul>
                             {
