@@ -19,6 +19,7 @@ class ApresentacaoPet extends Component {
                     <div className="background_listagem">
                         <div className="apresentacao">
                         <Link className="btn" to="/pets">Voltar</Link>
+                        <h4>Pets</h4>
                             <div className="apresentação_lista">
                             <div>
                                 <img src={FotoPet} />

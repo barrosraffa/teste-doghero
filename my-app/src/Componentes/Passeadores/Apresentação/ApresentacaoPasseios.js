@@ -1,20 +1,39 @@
 import React, { Component } from "react";
 import "../../../style.css"
-// import ListagemPets from "../Listagemfake/ListagemPets"
+import ListagemPasseadores from "../../Listagemfake/ListagemPasseadores"
+import { Link } from "react-router-dom";
+import FotoCarla from "../../../assets/carla.jpeg"
 
 
-class Apresentacao extends Component {
+class ApresentacaoCliente extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            dadosPasseadores: ListagemPasseadores[0]
+        }
+    }
 
     render() {
         return (
                 <section className="container">
                     <div className="background_listagem">
                         <div className="apresentacao">
-                            <img src="./my-app/assets/dog1.jpg" alt=""/>
+                        <Link className="btn" to="/passeadores">Voltar</Link>
+                        <h4>Passeadores</h4>
                             <div className="apresentação_lista">
-                                    <li></li>
-                                    <button>Voltar</button>
+                            <div>
+                                <img src={FotoCarla} />
                             </div>
+                            <div className="style_li">
+                                <h3> {this.state.dadosPasseadores.nome}</h3>
+                                <ul>
+                                    <li>{this.state.dadosPasseadores.telefone}</li> 
+                                    <li>{this.state.dadosPasseadores.email}</li>
+                                    <li>{this.state.dadosPasseadores.idade}</li> 
+                                </ul>
+                            </div>  
+                            </div>
+                            
                         </div>
                     </div>
                 </section>
@@ -22,4 +41,4 @@ class Apresentacao extends Component {
     }
 }
 
-export default Apresentacao
+export default ApresentacaoCliente

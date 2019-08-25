@@ -1,11 +1,10 @@
 let ListagemClientes = [ 
     {
         id: "Mariana",
-        foto: "../../assets/dog1.jpg",
         nome: "Mariana",
         telefone: "(11)99999-9999",
-        email: "carla@gmail.com",
-        idade: "18 anos",
+        email: "mariana@gmail.com",
+        idade: "28 anos",
     },
     {
         id: "Roger",

@@ -22,15 +22,15 @@ class Listagem extends Component {
                         <a href="#">Lista de pets </a>
                         <Link to="/CadastroPasseadores">Cadastro de passeador</Link>
                         <ul>
-                                {
-                                ListagemPasseios.map((passeios) => {
-                                    return( 
-                                    <li>
-                                    {passeios.nome}
-                                    </li>
-                                    )
-                                })
-                              }
+                            {
+                            ListagemPasseios.map((passeios) => {
+                                return( 
+                                <li>
+                                <Link to="/ApresentacaoPasseador">{passeios.nome}</Link>
+                                </li>
+                                )
+                            })
+                            }
                         </ul>
                     
                     </div>

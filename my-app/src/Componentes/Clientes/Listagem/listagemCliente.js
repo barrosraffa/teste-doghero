@@ -26,13 +26,12 @@ class Listagem extends Component {
                                 ListagemClientes.map((clientes) => {
                                     return( 
                                     <li>
-                                    {clientes.nome}
+                                    <Link to="/ApresentacaoCliente">{clientes.nome}</Link>
                                     </li>
                                     )
                                 })
                               }
                         </ul>
-                    
                     </div>
                 </div>
             </section>
